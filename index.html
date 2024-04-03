@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>BOOTSTRAP-D2</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <img
+              src="/assets/logoEvelin.png"
+              class="nav-bar brand"
+              alt="logoEvelin"
+              width="100px"
+            />
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 opacity-50">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#"> Saldi </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Welcome Summer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Last Minute</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Recensioni</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2 opacity-30"
+                type="search"
+                placeholder="Cerca posti da sogno"
+                aria-label="Cerca posti da sogno"
+              />
+              <button class="btn btn-outline-danger" type="submit">
+                Cerca
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="mx-5">
+      <!-- Sezione introduttiva -->
+      <div class="container bg-body-tertiary mb-5">
+        <div class="row bg-light py-5">
+          <div class="col">
+            <h3 class="opacity-50 d-inline-block fs-1 border-bottom">
+              Evelin-R-
+            </h3>
+            <h3 class="opacity-50 d-inline-block fs-5 align-text-bottom">
+              Feel the freedom
+            </h3>
+            <p class="lead opacity-50 fst-italic">
+              Scopri le destinazioni più calde del momento
+            </p>
+            <a href="#" class="btn btn-lg btn-primary font-weight-bold bg-info"
+              >Prenota ora</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- CARD DESKTOP -->
+
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-auto"><h5>Saldi</h5></div>
+          <div class="col-auto text-info"><h5>Nascondi sezione</h5></div>
+        </div>
+        <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 ">
+          <div class="col ">
+            <div class="card lg-3 border border-info ">
+              <img
+                src="https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Isole Phi Phi"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Isole Phi Phi</h5>
+                <p class="card-text">
+                  Le Isole Phi Phi offrono opportunità per snorkeling,
+                  immersioni, escursioni in barca e relax sulla spiaggia,
+                  rendendole una destinazione ideale per chi cerca un paradiso
+                  tropicale.
+                </p>
+                <a href="#" class="btn btn-primary bg-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card lg-3 border border-info">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1697729733847-0ed51661e005?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNoZWZjaGFvdWVufGVufDB8fDB8fHww"
+                class="card-img-top"
+                alt="Chefchaouen, Morocco"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Chefchaouen</h5>
+                <p class="card-text">
+                  Chefchaouen, conosciuta anche come la "Città Blu", è una
+                  pittoresca città situata sulle montagne del Rif nel nord del
+                  Marocco. Ciò che la rende unica è il suo centro storico
+                  dipinto di blu.
+                </p>
+                <a href="#" class="btn btn-primary bg-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card lg-3 border border-info">
+              <img
+                src="https://images.unsplash.com/photo-1607869861980-da5f9b8b4969?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Sidi bou"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Sidi Bou</h5>
+                <p class="card-text">
+                  Sidi Bou Said è una pittoresca città costiera situata sulla
+                  costa nord-orientale della Tunisia, a breve distanza dalla
+                  capitale Tunisi. Caratterizzata dai suoi edifici bianchi con
+                  porte e finestre blu.
+                </p>
+                <a href="#" class="btn btn-primary bg-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card lg-3 border border-info">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1661920294279-9c3b2a430e5c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Luxor"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Luxor</h5>
+                <p class="card-text">
+                  Luxor, conosciuta anche come Tebe nell'antichità, è una delle
+                  città più affascinanti dell'Egitto, famosa per i suoi
+                  incredibili siti archeologici che testimoniano l'antica
+                  civiltà egizia. La città è ricca di storia e cultura.
+                </p>
+                <a href="#" class="btn btn-primary bg-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CARD 2 -->
+      <div class="container">
+        <div><h3>Welcome Summer</h3></div>
+        <div class="row row-cols-1 row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card lg-3">
+              <img
+                src="https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Maldive"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Maldive</h5>
+                <p class="card-text">
+                  Le Maldive sono un arcipelago situato nell'Oceano Indiano
+                  sudoccidentale, noto per le sue acque cristalline, le spiagge
+                  di sabbia bianca e i ricchi ecosistemi marini. Le Maldive sono
+                  un destino popolare per il turismo.
+                </p>
+                <a href="#" class="btn btn-primary bg-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card lg-3">
+              <img
+                src="https://images.unsplash.com/photo-1594822530787-629c38ba7887?q=80&w=2095&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Taj Mahal"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Taj Mahal</h5>
+                <p class="card-text">
+                  Il Taj Mahal è un mausoleo di marmo bianco situato nella città
+                  di Agra, nello stato indiano dell'Uttar Pradesh. Commissionato
+                  nel 1632 dall'imperatore moghul Shah Jahan in memoria della
+                  sua amata moglie Mumtaz Mahal.
+                </p>
+                <a href="#" class="btn btn-primary bg-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card lg-3">
+              <img
+                src="https://images.unsplash.com/photo-1534868489953-ef37c20abb25?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Grand Canyon"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Grand Canyon</h5>
+                <p class="card-text">
+                  Il Grand Canyon è uno dei canyon più spettacolari e iconici al
+                  mondo, situato nello stato dell'Arizona, negli Stati Uniti. Si
+                  estende per circa 446 chilometri e raggiunge una larghezza
+                  massima di oltre 29 chilometri e una profondità di oltre 1,8
+                  chilometri.
+                </p>
+                <a href="#" class="btn btn-primary bg-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card lg-3">
+              <img
+                src="https://images.unsplash.com/photo-1597982087634-9884f03198ce?q=80&w=2088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Los Angeles"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Los Angeles</h5>
+                <p class="card-text">
+                  Los Angeles, comunemente nota come LA, è una delle città più
+                  grandi e vivaci degli Stati Uniti. Situata nella California
+                  meridionale, LA è famosa per il suo clima soleggiato, le sue
+                  spiagge iconiche e la sua cultura vibrante.
+                </p>
+                <a href="#" class="btn btn-primary bg-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card lg-3">
+              <img
+                src="https://images.unsplash.com/photo-1596005554384-d293674c91d7?q=80&w=2098&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Kenya"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Kenya</h5>
+                <p class="card-text">
+                  Il Kenya, situato nell'Africa orientale, è celebre per i suoi
+                  safari, offrendo l'opportunità unica di avvistare una
+                  straordinaria varietà di animali selvatici nei suoi parchi
+                  nazionali, tra cui il Masai Mara e il Parco Nazionale di
+                  Amboseli.
+                </p>
+                <a href="#" class="btn btn-primary bg-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card lg-3">
+              <img
+                src="https://images.unsplash.com/photo-1504814532849-cff240bbc503?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="card-img-top"
+                alt="Tulum"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tulum</h5>
+                <p class="card-text">
+                  Oltre alle rovine, Tulum è famosa per le sue belle spiagge di
+                  sabbia bianca e le acque cristalline del Mar dei Caraibi. È
+                  diventata una popolare destinazione turistica, attratta non
+                  solo dalla sua storia e dalle sue rovine.
+                </p>
+                <a href="#" class="btn btn-primary bg-info">Prenota</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- OFFERTA DEL GIORNO -->
+      <div class="container mt-4 d-none d-sm-block">
+        <div><h3 class="fs-5">Offerta del giorno</h3></div>
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="https://images.unsplash.com/photo-1554610975-1fa324cfb60b?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="img-fluid rounded-start img-offerta"
+                alt="Isole Faroe"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="m-lg-5">
+                <h2>Isole Faroe</h2>
+                <p class="font-monospace">
+                 20/04-26/04
+                </p>
+                <p class="card-text">
+                  Le Isole Faroe sono un arcipelago di origine vulcanica situato
+                  nell'Oceano Atlantico settentrionale, tra la Norvegia e
+                  l'Islanda.
+                </p>
+                <button type="button" class="btn btn-dark">Prenota ora!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- LAST MINUTE -->
+      <div class="container">
+        <div>
+          <h3>Last Minute</h3>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <img
+              src="https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="rounded img-fluid w-100 img-size"
+              alt="Maldive"
+            />
+          </div>
+          <div class="col-2">
+            <img
+              src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="rounded img-fluid w-100 img-size"
+              alt="El nino"
+            />
+          </div>
+          <div class="col-2">
+            <img
+              src="https://images.unsplash.com/photo-1573270689103-d7a4e42b609a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="rounded img-fluid w-100 img-size"
+              alt="maldive"
+            />
+          </div>
+          <div class="col-2">
+            <img
+              src="https://images.unsplash.com/photo-1618338418110-3225a659e612?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="rounded img-fluid w-100 img-size"
+              alt="Colombia"
+            />
+          </div>
+          <div class="col-2">
+            <img
+              src="https://images.unsplash.com/photo-1500111609242-145a52dcc944?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="rounded img-fluid w-100 img-size"
+              alt="Thailand"
+            />
+          </div>
+          <div class="col-2">
+            <img
+              src="https://images.unsplash.com/photo-1565223453070-4ce341996b27?q=80&w=2022&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="rounded img-fluid w-100 img-size"
+              alt="Canada"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- RECENSIONI -->
+      <div class="container">
+        <h2 class="text-center mt-5 mb-4">Dicono di noi</h2>
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="review d-flex">
+              <img
+                src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Avatar"
+                class="user-avatar me-3"
+              />
+              <div>
+                <h5>Paolo Bianchi</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  condimentum, elit eget blandit malesuada, odio enim pretium
+                  ipsum, sit amet vestibulum ligula justo nec libero.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="review d-flex">
+              <img
+                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Avatar"
+                class="user-avatar me-3"
+              />
+              <div>
+                <h5>Mario Rossi</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  condimentum, elit eget blandit malesuada, odio enim pretium
+                  ipsum, sit amet vestibulum ligula justo nec libero.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="review d-flex">
+              <img
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Avatar"
+                class="user-avatar me-3"
+              />
+              <div>
+                <h5>Francesco Gialli</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  condimentum, elit eget blandit malesuada, odio enim pretium
+                  ipsum, sit amet vestibulum ligula justo nec libero.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="review d-flex">
+                <img
+                  src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="Avatar"
+                  class="user-avatar me-3"
+                />
+                <div>
+                  <h5>Paolo Rossi</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    condimentum, elit eget blandit malesuada, odio enim pretium
+                    ipsum, sit amet vestibulum ligula justo nec libero.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container-fluid bg-dark text-white text-center">
+        <button type="button" class="btn btn-outline-secondary mb-3 mt-3">
+          Contattaci
+        </button>
+        <div class="row">
+          <div class="col-12 mb-3">
+            <p class="card-text">
+              &copy; 2024 Kalina Travel LTD. All Right Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
