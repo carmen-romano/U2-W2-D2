@@ -27,13 +27,15 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">
             <img
               src="/assets/logoEvelin.png"
-              class="nav-bar brand"
-              alt="logoEvelin"
-              width="100px"
+              alt="logo Evelin"
+              width="80"
+              height="64"
             />
+          </a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 opacity-50">
               <li class="nav-item">
                 <a class="nav-link active" href="#">Home</a>
@@ -91,82 +93,96 @@
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-auto"><h5>Saldi</h5></div>
-          <div class="col-auto text-info"><h5>Nascondi sezione</h5></div>
+          <div class="col-auto text-info">
+            <button
+              type="button"
+              class="btn btn-link"
+              data-bs-toggle="collapse"
+              href="#collapseExample"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              Nascondi sezione
+            </button>
+          </div>
         </div>
-        <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 ">
-          <div class="col ">
-            <div class="card lg-3 border border-info ">
-              <img
-                src="https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                class="card-img-top"
-                alt="Isole Phi Phi"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Isole Phi Phi</h5>
-                <p class="card-text">
-                  Le Isole Phi Phi offrono opportunità per snorkeling,
-                  immersioni, escursioni in barca e relax sulla spiaggia,
-                  rendendole una destinazione ideale per chi cerca un paradiso
-                  tropicale.
-                </p>
-                <a href="#" class="btn btn-primary bg-info">Prenota</a>
+        <div class="collapse show mb-5" id="collapseExample">
+          <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+            <div class="col">
+              <div class="card lg-4 border border-info">
+                <img
+                  src="https://images.unsplash.com/photo-1506665531195-3566af2b4dfa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  class="card-img-top"
+                  alt="Isole Phi Phi"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Isole Phi Phi</h5>
+                  <p class="card-text">
+                    Le Isole Phi Phi offrono opportunità per snorkeling,
+                    immersioni, escursioni in barca e relax sulla spiaggia,
+                    rendendole una destinazione ideale per chi cerca un paradiso
+                    tropicale.
+                  </p>
+                  <a href="#" class="btn btn-primary bg-info">Prenota</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card lg-3 border border-info">
-              <img
-                src="https://plus.unsplash.com/premium_photo-1697729733847-0ed51661e005?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNoZWZjaGFvdWVufGVufDB8fDB8fHww"
-                class="card-img-top"
-                alt="Chefchaouen, Morocco"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Chefchaouen</h5>
-                <p class="card-text">
-                  Chefchaouen, conosciuta anche come la "Città Blu", è una
-                  pittoresca città situata sulle montagne del Rif nel nord del
-                  Marocco. Ciò che la rende unica è il suo centro storico
-                  dipinto di blu.
-                </p>
-                <a href="#" class="btn btn-primary bg-info">Prenota</a>
+            <div class="col">
+              <div class="card lg-4 border border-info">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1697729733847-0ed51661e005?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNoZWZjaGFvdWVufGVufDB8fDB8fHww"
+                  class="card-img-top"
+                  alt="Chefchaouen, Morocco"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Chefchaouen</h5>
+                  <p class="card-text">
+                    Chefchaouen, conosciuta anche come la "Città Blu", è una
+                    pittoresca città situata sulle montagne del Rif nel nord del
+                    Marocco. Ciò che la rende unica è il suo centro storico
+                    dipinto di blu.
+                  </p>
+                  <a href="#" class="btn btn-primary bg-info">Prenota</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card lg-3 border border-info">
-              <img
-                src="https://images.unsplash.com/photo-1607869861980-da5f9b8b4969?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                class="card-img-top"
-                alt="Sidi bou"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Sidi Bou</h5>
-                <p class="card-text">
-                  Sidi Bou Said è una pittoresca città costiera situata sulla
-                  costa nord-orientale della Tunisia, a breve distanza dalla
-                  capitale Tunisi. Caratterizzata dai suoi edifici bianchi con
-                  porte e finestre blu.
-                </p>
-                <a href="#" class="btn btn-primary bg-info">Prenota</a>
+            <div class="col">
+              <div class="card lg-3 border border-info">
+                <img
+                  src="https://images.unsplash.com/photo-1607869861980-da5f9b8b4969?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  class="card-img-top"
+                  alt="Sidi bou"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Sidi Bou</h5>
+                  <p class="card-text">
+                    Sidi Bou Said è una pittoresca città costiera situata sulla
+                    costa nord-orientale della Tunisia, a breve distanza dalla
+                    capitale Tunisi. Caratterizzata dai suoi edifici bianchi con
+                    porte e finestre blu.
+                  </p>
+                  <a href="#" class="btn btn-primary bg-info">Prenota</a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card lg-3 border border-info">
-              <img
-                src="https://plus.unsplash.com/premium_photo-1661920294279-9c3b2a430e5c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                class="card-img-top"
-                alt="Luxor"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Luxor</h5>
-                <p class="card-text">
-                  Luxor, conosciuta anche come Tebe nell'antichità, è una delle
-                  città più affascinanti dell'Egitto, famosa per i suoi
-                  incredibili siti archeologici che testimoniano l'antica
-                  civiltà egizia. La città è ricca di storia e cultura.
-                </p>
-                <a href="#" class="btn btn-primary bg-info">Prenota</a>
+            <div class="col">
+              <div class="card lg-4 border border-info">
+                <img
+                  src="https://plus.unsplash.com/premium_photo-1661920294279-9c3b2a430e5c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  class="card-img-top"
+                  alt="Luxor"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Luxor</h5>
+                  <p class="card-text">
+                    Luxor, conosciuta anche come Tebe nell'antichità, è una
+                    delle città più affascinanti dell'Egitto, famosa per i suoi
+                    incredibili siti archeologici che testimoniano l'antica
+                    civiltà egizia. La città è ricca di storia e cultura.
+                  </p>
+                  <a href="#" class="btn btn-primary bg-info">Prenota</a>
+                </div>
               </div>
             </div>
           </div>
@@ -175,9 +191,12 @@
       <!-- CARD 2 -->
       <div class="container">
         <div><h3>Welcome Summer</h3></div>
-        <div class="row row-cols-1 row-cols-lg-4 g-4">
+        <div class="row row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
-            <div class="card lg-3">
+            <div class="card lg-4 position-relative">
+              <span class="badge text-bg-danger w-25 position-absolute"
+                >Hot</span
+              >
               <img
                 src="https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 class="card-img-top"
@@ -196,7 +215,10 @@
             </div>
           </div>
           <div class="col">
-            <div class="card lg-3">
+            <div class="card lg-4 position-relative">
+              <span class="badge text-bg-danger w-25 position-absolute"
+                >Hot</span
+              >
               <img
                 src="https://images.unsplash.com/photo-1594822530787-629c38ba7887?q=80&w=2095&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 class="card-img-top"
@@ -215,7 +237,10 @@
             </div>
           </div>
           <div class="col">
-            <div class="card lg-3">
+            <div class="card lg-4 position-relative">
+              <span class="badge text-bg-danger w-25 position-absolute"
+                >Hot</span
+              >
               <img
                 src="https://images.unsplash.com/photo-1534868489953-ef37c20abb25?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 class="card-img-top"
@@ -235,7 +260,10 @@
             </div>
           </div>
           <div class="col">
-            <div class="card lg-3">
+            <div class="card lg-4 position-relative">
+              <span class="badge text-bg-danger w-25 position-absolute"
+                >Hot</span
+              >
               <img
                 src="https://images.unsplash.com/photo-1597982087634-9884f03198ce?q=80&w=2088&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 class="card-img-top"
@@ -254,7 +282,10 @@
             </div>
           </div>
           <div class="col">
-            <div class="card lg-3">
+            <div class="card lg-4 position-relative">
+              <span class="badge text-bg-danger w-25 position-absolute"
+                >Hot</span
+              >
               <img
                 src="https://images.unsplash.com/photo-1596005554384-d293674c91d7?q=80&w=2098&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 class="card-img-top"
@@ -274,7 +305,10 @@
             </div>
           </div>
           <div class="col">
-            <div class="card lg-3">
+            <div class="card lg-4 position-relative">
+              <span class="badge text-bg-danger w-25 position-absolute"
+                >Hot</span
+              >
               <img
                 src="https://images.unsplash.com/photo-1504814532849-cff240bbc503?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 class="card-img-top"
@@ -297,27 +331,24 @@
       <!-- OFFERTA DEL GIORNO -->
       <div class="container mt-4 d-none d-sm-block">
         <div><h3 class="fs-5">Offerta del giorno</h3></div>
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="https://images.unsplash.com/photo-1554610975-1fa324cfb60b?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                class="img-fluid rounded-start img-offerta"
-                alt="Isole Faroe"
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="m-lg-5">
-                <h2>Isole Faroe</h2>
-                <p class="font-monospace">
-                 20/04-26/04
-                </p>
-                <p class="card-text">
-                  Le Isole Faroe sono un arcipelago di origine vulcanica situato
-                  nell'Oceano Atlantico settentrionale, tra la Norvegia e
-                  l'Islanda.
-                </p>
-                <button type="button" class="btn btn-dark">Prenota ora!</button>
-              </div>
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="https://images.unsplash.com/photo-1554610975-1fa324cfb60b?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="img-fluid rounded-start"
+              alt="Isole Faroe"
+            />
+          </div>
+          <div class="col mb-5">
+            <div class="m-lg-2">
+              <h2>Isole Faroe</h2>
+              <p class="font-monospace">20/04-26/04</p>
+              <p class="card-text">
+                Le Isole Faroe sono un arcipelago di origine vulcanica situato
+                nell'Oceano Atlantico settentrionale, tra la Norvegia e
+                l'Islanda.
+              </p>
+              <button type="button" class="btn btn-dark">Prenota ora!</button>
             </div>
           </div>
         </div>
